@@ -1,0 +1,107 @@
+.account-table {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.account-table .search-container input {
+    width: 300px;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .account-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .account-table table th,
+  .account-table table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .account-table table th {
+    background-color: #eee;
+  }
+  
+  .account-table .load-more {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 32px;
+    background-color: #337ab7;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .create-account-modal .modal-dialog .modal-content .modal-header h5.modal-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .create-account-modal .modal-dialog .modal-content .modal-header button.close {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    line-height: 1;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .create-account-modal .modal-dialog .modal-content .modal-body .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .create-account-modal .modal-dialog .modal-content .modal-body .form-group input.form-control {
+    width: 100%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-account-modal .modal-dialog .modal-content .modal-footer button.btn {
+    display: inline-block;
+    margin: 0;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .create-account-modal .modal-dialog .modal-content .modal-footer button.btn.btn-secondary {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  
+  .create-account-modal .modal-dialog .modal-content .modal-footer button.btn.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+  }
